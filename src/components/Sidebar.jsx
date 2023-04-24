@@ -21,7 +21,7 @@ export default function Sidebar() {
           </a>
         </div>
 
-        <p className="my-10 text-xl text-center">Pedido de {user?.name} </p>
+        <p className="my-10 text-xl text-center">Pedido de {user?.name} {':)'} </p>
 
         <div className="mt-10">
             {categorias.map( categoria => (
