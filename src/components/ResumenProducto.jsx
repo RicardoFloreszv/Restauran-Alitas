@@ -10,7 +10,7 @@ export default function ResumenProducto({producto}) {
     console.log(producto)
 
     return (
-        <div className="shadow space-y-1 p-4 bg-gray-200 mb-4">
+        <div className="shadow space-y-1 p-4 bg-gray-200 rounded mb-4">
             <div className="space-y-2">
             <p className="text-xl font-bold">{nombre}</p>
             <p className="text-lg font-semibold ">Cantidad: {cantidad}</p>
@@ -22,7 +22,7 @@ export default function ResumenProducto({producto}) {
             </p>
             </div>
 
-            <div className="flex justify-between gap-2 pb-4">
+            <div className="flex justify-between gap-2 pb-4 pt-4">
             <button
                 type="button"
                 className="bg-sky-900 p-2 text-white rounded-md font-bold uppercase shadow-md text-center"

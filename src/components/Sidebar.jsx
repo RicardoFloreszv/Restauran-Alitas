@@ -13,15 +13,15 @@ export default function Sidebar() {
 
   return (
     <aside className='md:w-96 '>
-        <div className="p-4  flex justify-center mt-10">
+        <div className="p-4  flex justify-center ">
           <a href="/">
             <img src="img/logo.png" alt="Imagen Logo" 
-                className="w-72"
+                className="w-48"
                 />
           </a>
         </div>
 
-        <p className="my-10 text-xl text-center">Pedido de {user?.name} {':)'} </p>
+        <p className=" text-xl text-center">Pedido de {user?.name} {':)'} </p>
 
         <div className="mt-10">
             {categorias.map( categoria => (

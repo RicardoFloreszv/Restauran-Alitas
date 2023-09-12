@@ -51,7 +51,7 @@ export default function Ordenes() {
               {pedido.productos.map(producto => (
                 <div 
                   key={producto.id} 
-                  className=" border-b border-b-slate-200 last-of-type:border-none py-4 flex"
+                  className=" border-b border-b-slate-200 last-of-type:border-none py-4 "
                 >
                     <img src={`/img/${producto.imagen}.jpg`} alt="Imagen del producto"  className="w-80"/>
 
